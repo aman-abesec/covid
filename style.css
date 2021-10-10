@@ -1,0 +1,159 @@
+ *{
+   margin:0px;
+   padding:0px;
+   outline: none;
+ }
+ .bg-indigo{
+   background-color: #6f42c1;
+   color:#fff;
+ }
+
+ .nav-link{
+   color:#fff;
+ }
+
+ .nav-link:hover{
+   color:#fff;
+ }
+.dropdown-toggle,.dropdown-toggle:hover{
+  color:#fff;
+  outline: none;
+  border:0px;
+}
+.dropdown-toggle:focus{
+  color:#fff;
+  outline: none;
+  border: 0px;
+}
+.dropdown-menu .dropdown-item{
+  cursor: pointer;
+}
+.dropdown-menu .dropdown-item:hover{
+  background-color:#6f42c1;
+  color:#fff;
+}
+#logo_img{
+  animation: rotate 7s linear infinite;
+  -webkit-animation: rotate 7s linear infinite;
+}
+#main-img{
+  width: 60%;
+  height:60%;
+  animation: rotate 7s linear infinite;
+  -webkit-animation: rotate 7s linear infinite;
+}
+@keyframes rotate {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  100%{
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+h1,h5{
+  color:#000;
+}
+
+.heading{
+  color:#6f42c1;
+}
+
+#countrySearch{
+  width:50%;
+}
+#submitbtn:hover{
+  color:#fff;
+}
+#health-meter:hover{
+  color:#fff;
+}
+tr{
+  font-size: 12px;
+}
+
+.meter{
+  display:flex;
+  align-item:center;
+  justify-content:center;
+}
+.meter-body{
+  width:100%;
+  max-width:240px;
+  padding-bottom:110px;
+  /* background-color:#6f42c1; */
+  border-top:25px solid #ffee11;
+  border-left:25px solid #0be881;
+  border-right:25px solid #ff3333;
+  border-top-left-radius:100% 200%;
+  border-top-right-radius:100% 200%;
+}
+.needle{
+  width:95px;
+  height:5px;
+  color:#6f42c1;
+  background-color:#6f42c1;
+  position:absolute;
+  top:31%;
+  transition-property:transform;
+  transition-delay: 0s;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  transform:rotate(0deg);
+  -webkit-transform:rotate(0deg);
+  transform-origin:bottom right;
+  -webkit-transform-origin:bottom right;
+  border-radius:5px;
+}
+#Safety{
+  color:#6f42c1;
+  text-align: center;
+}
+
+#face-btn:hover{
+  color:#fff;
+}
+#warning-mask{
+  text-align: center;
+  margin:10px 10px;
+}
+#webcam-container {
+  /* margin:25px 110px; */
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 6px 10px 0 #555,0 7px 21px #555;
+  background: url("https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.webp?cid=ecf05e47aufk21h0kq07dskcg3yf9gu5bcsjndsidicuyzog&rid=giphy.webp&ct=g");
+  background-position: center;
+}
+#webcam-container p{
+  padding: 5px;
+  color: #fff;
+}
+#label-container{
+  margin:25px;
+}
+
+.form-check-input:checked{
+  color:#6f42c1;
+  background-color: #6f42c1;
+  border: 0px;
+}
+@media(max-width:360px){
+  .navbar-brand{
+    display: block;
+    margin: 0 auto;
+    /* margin-left:80px; */
+  }
+  .nav-pills{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px;
+    margin:0px;
+  }
+  .row .header-img img{
+    margin: 0 auto;
+  }
+}
